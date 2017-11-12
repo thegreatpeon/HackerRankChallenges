@@ -7,7 +7,7 @@ void runDay18()
 	getline(std::cin, s);
 
 	// create the Solution class object p.
-	Solution obj;
+	Solution18 obj;
 
 	// push/enqueue all the characters of string s to stack.
 	for (int i = 0; i < s.length(); i++) {
@@ -37,12 +37,12 @@ void runDay18()
 	}
 }
 
-void Solution::pushCharacter(char ch)
+void Solution18::pushCharacter(char ch)
 {
 	palinStack.push(ch);
 }
 
-char Solution::popCharacter()
+char Solution18::popCharacter()
 {
 	char temp = palinStack.top();
 	
@@ -51,12 +51,12 @@ char Solution::popCharacter()
 	return temp;
 }
 
-void Solution::enqueueCharacter(char  ch)
+void Solution18::enqueueCharacter(char  ch)
 {
 	palinQueue.push(ch);
 }
 
-char Solution::dequeueCharacter()
+char Solution18::dequeueCharacter()
 {
 	char temp = palinQueue.front();
 
