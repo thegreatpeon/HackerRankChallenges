@@ -5,7 +5,7 @@
 #include <stack>
 
 
-class Solution 
+class Solution18
 {
 protected:
 	std::queue<char> palinQueue;
