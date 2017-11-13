@@ -5,7 +5,7 @@ using namespace std;
 int main() 
 {
 	/* Enter your code here. Read input from STDIN. Print output to STDOUT */
-	runDay18();
+	runDay20();
 	
 	return 0;
 }
